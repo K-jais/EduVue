@@ -1,0 +1,170 @@
+body{
+    background-color: #fff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='52' height='52' viewBox='0 0 52 52'%3E%3Cpath fill='%23808080' fill-opacity='0.18' d='M0 17.83V0h17.83a3 3 0 0 1-5.66 2H5.9A5 5 0 0 1 2 5.9v6.27a3 3 0 0 1-2 5.66zm0 18.34a3 3 0 0 1 2 5.66v6.27A5 5 0 0 1 5.9 52h6.27a3 3 0 0 1 5.66 0H0V36.17zM36.17 52a3 3 0 0 1 5.66 0h6.27a5 5 0 0 1 3.9-3.9v-6.27a3 3 0 0 1 0-5.66V52H36.17zM0 31.93v-9.78a5 5 0 0 1 3.8.72l4.43-4.43a3 3 0 1 1 1.42 1.41L5.2 24.28a5 5 0 0 1 0 5.52l4.44 4.43a3 3 0 1 1-1.42 1.42L3.8 31.2a5 5 0 0 1-3.8.72zm52-14.1a3 3 0 0 1 0-5.66V5.9A5 5 0 0 1 48.1 2h-6.27a3 3 0 0 1-5.66-2H52v17.83zm0 14.1a4.97 4.97 0 0 1-1.72-.72l-4.43 4.44a3 3 0 1 1-1.41-1.42l4.43-4.43a5 5 0 0 1 0-5.52l-4.43-4.43a3 3 0 1 1 1.41-1.41l4.43 4.43c.53-.35 1.12-.6 1.72-.72v9.78zM22.15 0h9.78a5 5 0 0 1-.72 3.8l4.44 4.43a3 3 0 1 1-1.42 1.42L29.8 5.2a5 5 0 0 1-5.52 0l-4.43 4.44a3 3 0 1 1-1.41-1.42l4.43-4.43a5 5 0 0 1-.72-3.8zm0 52c.13-.6.37-1.19.72-1.72l-4.43-4.43a3 3 0 1 1 1.41-1.41l4.43 4.43a5 5 0 0 1 5.52 0l4.43-4.43a3 3 0 1 1 1.42 1.41l-4.44 4.43c.36.53.6 1.12.72 1.72h-9.78zm9.75-24a5 5 0 0 1-3.9 3.9v6.27a3 3 0 1 1-2 0V31.9a5 5 0 0 1-3.9-3.9h-6.27a3 3 0 1 1 0-2h6.27a5 5 0 0 1 3.9-3.9v-6.27a3 3 0 1 1 2 0v6.27a5 5 0 0 1 3.9 3.9h6.27a3 3 0 1 1 0 2H31.9z'%3E%3C/path%3E%3C/svg%3E");
+ }
+ .bg-dark{
+ background-color:#ffca18!important;
+ border-bottom: 1.5px solid #343a40;
+}
+.navbar-nav .nav-link{
+       color:#000;
+       font-size: 23px;
+       text-transform: uppercase;
+       font-family: 'Bebas Neue', normal;
+       padding :5px 0px;
+       padding-top: 16px;
+       letter-spacing: 0.8px;
+     }
+    .navbar-nav .nav-link:hover{
+       color:#fff;
+     }
+     .form-check-input{
+       background-color: #fff;
+       border-color: #ffca18;
+       outline: none;
+       border:none;
+       box-shadow: none;
+       margin-top: 0.45em;
+     }
+     .form-check-input:checked{
+       background-color: #010409;
+       border-color: #ffca18;
+       outline: none;
+       box-shadow: none;
+     }
+     .form-check-label{
+       font-size: 20px;
+       letter-spacing: 0.8px;
+       font-family: 'Bebas Neue',normal;
+       color: #000;
+     }
+     .form-check-label:hover{
+       color: #fff;
+     }
+     .carousel-item{
+       min-height: 500px;
+       background-color: #dee3de;
+       padding-bottom: 20px;
+     }
+     .slide-head{
+       text-align: center;
+       text-transform: uppercase;
+       color:black;
+       font-family:'Bebas Neue',normal;
+       font-size: 40px;
+       padding:0px 150px;
+       padding-top:20px;
+       word-spacing: 8px;
+     }
+     .slide-para{
+       text-align: center;
+       color:#000;
+       font-size: 25px;
+       font-weight: 500;
+       padding: 0px 50px;
+     }
+     .slide-img-1{
+       height:250px;
+     }
+     .slide-img-2{
+       height:250px;
+       padding-top: 30px;
+       padding-left: 95px;
+     }
+     .slide-button{
+       background-color: #1C2333 ;
+       border-radius: 32px;
+       opacity: 1;
+       width: 150px;
+       height: 50px;
+       color:#FFF;
+       border:2px solid #1C2333;
+       font-size: 15px;
+       margin-left: 70px;
+       margin-top: 38px;
+     }
+     .slide-button:hover{
+       color:#1C2333;
+       background-color: #fff;
+       border:2px solid #fff;
+     }
+     .about_points{
+       color:black;
+       font-weight: 500;
+       font-size: 20px;
+       margin-bottom: 6px;
+     }
+     #aboutus{
+       background-color:#dee3de;
+       padding:20px 30px;
+       margin-bottom: 60px;
+     }
+     .about-head{
+       text-align: center;
+       font-family: 'Bebas Neue',normal;
+       border-bottom: 1.5px solid black;
+       padding-bottom: 4px;
+     }
+     #vision_mission{
+       background-color:#dee3de;
+       padding:20px 30px;
+       margin-bottom: 60px;
+     }
+     #community{
+       background-color:#dee3de;
+       padding:20px 30px;
+       margin-bottom: 60px;
+       padding-bottom: 50px;
+     }
+     .card-img-top{
+       height:200px;
+       width:240px;
+       margin-top: 15px;
+     }
+     .card-title{
+       text-align: center;
+       font-family: 'Bebas Neue',normal;
+       color:#ffca18;
+       padding-bottom: 4px;
+       font-size: 30px;
+     }
+     .card-text{
+       color:black;
+       font-size: 17px;
+       font-weight: 500;
+       text-align: center;
+     }
+     #features{
+       background-color:#dee3de;
+       padding:20px 30px;
+       margin-bottom: 60px;
+       padding-bottom: 50px;
+     }
+     .col{
+       margin:20px 0px;
+     }
+     #contactus{
+       background-color:#dee3de;
+       padding:20px 30px;
+       padding-bottom: 30px;
+     }
+     #footer{
+       background-color:#1e2022;
+       padding:20px 30px;
+     }
+     i{
+       margin:0px 6px;
+       color:#fff;
+     }
+     i:hover{
+       color:#ffca18;
+     }
+     #btn{
+       color:#fff;
+       background-color: #1C2333;
+       font-weight: 500;
+     }
+     #btn:hover{
+       color:black;
+       background-color: #fff;
+     }
